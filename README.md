@@ -23,17 +23,17 @@ this will open the Next.js app
 
 Open [http://localhost:1337](http://localhost:1337) with your browser.
 
-1. You will see strapi admin backend\
-2. Create account and login to get started.\\
+1. You will see strapi admin backend
+2. Create account and login to get started.
 3. Open Roles and permissions tab on the sidebar. 
 4. Click on the providers tab and enable google.
 
 ## Create Google Oath Client
 
-1. Open new tab and navigate to Google console[Google Client Oauth](https://console.cloud.google.com/apis/credentials/oauthclient)\
-2. Create a New Project\
-3. Create new Oauth App\
-4. Choose web application\
+1. Open new tab and navigate to Google console[Google Client Oauth](https://console.cloud.google.com/apis/credentials/oauthclient)
+2. Create a New Project
+3. Create new Oauth App
+4. Choose web application
 5. Add authorized redirect urls
 ```
 http://localhost:3000/api/auth/callback/google
